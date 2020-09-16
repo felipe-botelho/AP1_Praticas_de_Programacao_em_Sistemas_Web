@@ -1,0 +1,171 @@
+/* CORPO DO SITE */
+
+body{
+    font-family: Georgia;
+}
+
+/* ESTILO DA PÁGINA PRINCIPAL.HTML */
+
+body#telaprincipal{
+    background-image: url(https://wallpapercave.com/wp/wp1914508.jpg);
+    background-size: 1400px 760px;
+}
+
+nav#menu{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+nav#menu ul{
+    list-style: none;
+}
+
+nav#menu li{
+    display: inline-block;
+    padding:10px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+nav#menu li#me{
+    font-weight: 900;
+    margin: 20px;
+    padding:0px;
+}
+
+nav#menu a{
+    color:black;
+    text-decoration: none;
+}
+
+#corpo{
+    position: absolute;
+    top: 250px;
+    left:150px;
+}
+
+#corpo h1{
+    font-size: 35px;
+}
+
+#corpo h2{
+    font-size: 20px;
+}
+
+#botao a{
+    position: absolute;
+    top:390px;
+    left:150px;
+    text-decoration: none;
+    padding:10px;
+    background-color: #006b54;
+    color: white;
+    border-radius: 50px;
+    width:80px;
+    text-align: center;
+}
+
+/* ESTILO DA PÁGINA ABOUTME.HTML */
+
+#title h1{
+    position: absolute;
+    left:150px;
+    font-size:30px;
+}
+
+#title h1:after{
+  content: '';
+  display: block;
+  width: 65px;
+  height: 3px;
+  background: #006b54;
+  margin: 10;
+  border-radius: 30px;
+  margin:10px 0px;
+}
+
+#about{
+    background-color: red;
+}
+
+#part01{
+    position:absolute;
+    left:150px;
+    top:170px;
+    width:360px;
+}
+
+#part02{
+    position:absolute;
+    left:950px;
+    top:170px;
+    width:360px;
+}
+
+h6{
+    font-weight: 100;
+    font-size:15px;
+    text-align: justify;
+}
+
+#picture img{
+    position:absolute;
+    left:530px;
+    top:230px;
+    width: 400px;
+}
+
+#botaoContact a{
+    position: absolute;
+    top:485px;
+    left:950px;
+    text-decoration: none;
+    padding:10px;
+    background-color: #006b54;
+    color: white;
+    border-radius: 50px;
+    width:100px;
+    text-align: center;
+}
+
+/* ESTILO DA PÁGINA FORMULARIO.HTML */
+
+#titleForm{
+    margin:-20px;
+    display: flex;
+    justify-content: center;
+}
+
+#titleForm h1{
+    font-size:30px;
+}
+
+#areaForm{
+    width:1100px;
+    margin-left:150px;
+    margin-top:30px;
+    margin-right: 150px;
+}
+
+#form1{
+    width:500px;
+    margin:10px;
+    padding:8px;
+}
+
+#form2{
+    width:1045px;
+    margin:10px;
+    padding:8px;
+}
+
+#msg{
+    width:1058px;
+    margin:10px;
+}
+
+input,textarea::-webkit-input-placeholder {
+    font-family: Georgia;
+    font-size:14px;
+}
